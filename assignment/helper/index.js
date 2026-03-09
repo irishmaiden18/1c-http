@@ -1,1 +1,8 @@
 // Your Code Here
+
+const randomItem = (array) => {
+    let randomIndex = Math.floor(Math.random() * array.length)
+    return array[randomIndex]
+}
+
+module.exports = randomItem
